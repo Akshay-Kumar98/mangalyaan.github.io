@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Orbiter Mission-MOM</title>
+    <link rel="icon" href="images/isro logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sass/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/5b9129791d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body onload="myway();">
+    <div id="loading">
+        <div id="loading_text">
+            <span style="--i:1;">L</span>
+            <span style="--i:2;">o</span>
+            <span style="--i:3;">a</span>
+            <span style="--i:4;">d</span>
+            <span style="--i:5;">i</span>
+            <span style="--i:6;">n</span>
+            <span style="--i:7;">g</span>
+            <span style="--i:8;">.</span>
+            <span style="--i:9;">.</span>
+            <span style="--i:10;">.</span>
+
+        </div>
+    </div>
+
+
+
+    <div class="page" id="allmagic">
+        <h4>Login</h4>
+        <p>See and get your query result</p>
+
+        <div class="signin">
+            <img src="gallery/google.png">
+            <p>Sign in with Google</p>
+        </div>
+
+        <p class="nice">or &nbsp; Sign in with Email</p>
+        <form action="#" method="post" autocomplete="off">
+            <label for="email">Email*</label>
+            <br>
+            <input type="email" name="cmail" id="cmail" class="mymail" placeholder="akkumar73@gmail.com" required>
+
+            <label for="password">Password*</label>
+            <br>
+            <div class="pswd">
+                <span id="text" onclick="dare();"><i class="fas fa-eye-slash"></i></span>
+                <input type="password" name="pswd" id="pswd" class="mypswd" placeholder="Min. 8 Characters" required>
+
+            </div>
+
+            <p class="mentor"><input type="checkbox" class="hector" required> Remember Me <span>Forgot Password?</span>
+            </p>
+
+            <input type="submit" value="Login" class="mylogin">
+
+            <p class="not">Not registered yet? <span>create an Account</span></p>
+
+        </form>
+        <p class="hike">@2022 All rights reserved</p>
+
+
+    </div>
+
+
+
+
+    
+
+
+    <div class="container">
+
+        <div class="head" id="scroll">
+            <ul>
+                <li><a><img src="images/logo.svg"></a></li>
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a class="move" href="about.html">About</a></li>
+                <li><a class="move" href="blog.html">News</a></li>
+                <li><a class="move" href="contact.html">Contact Us</a></li>
+
+            </ul>
+        </div>
+
+        <div class="sidebar">
+            <div class="login" style="align-self: center;">
+                <a class="makeit">Login</a>
+            </div>
+            <div class="box">
+                <input type="search" id="search" name="search" placeholder="Type To Search">
+                <a><i class="fas fa-search"></i></a>
+
+            </div>
+            <span id="click">&#9776;</span>
+        </div>
+        <div class="menu" id="mynav">
+            <ul>
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a class="move" href="about.html">About</a></li>
+                <li><a class="move" href="blog.html">News</a></li>
+                <li><a class="move" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+
+        <div class="header">
+
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.svg"></a>
+            </div>
+
+            <div class="login" style="align-self: center;">
+                <a class="talking">Login</a>
+            </div>
+
+            <div class="searchbox" style="align-self: center;">
+                <input type="search" id="search" name="search" placeholder="Type To Search">
+                <a><i class="fas fa-search"></i></a>
+            </div>
+
+            <div class="menuline" id="menubar">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+
+            </div>
+        </div><!-- header -->
+
+        <div class="banner">
+
+            <div class="text">
+                <h2><span>M</span>ars <span>O</span>rbiter <span>M</span>ission-<span>MOM</span>
+                </h2>
+            </div>
+
+            <div id="earth"></div>
+
+
+            <div class="rocket">
+                <img src="images/rocket-01.png">
+            </div>
+
+        </div>
+
+
+
+        <div class="animation">
+            <div class="slider">
+                <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="images/banner-01.png">
+                    </div>
+                    <div class="slide">
+                        <img src="images/SLIDER2.png">
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/team.jpeg">
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/mangalyaan.jpg">
+                    </div>
+
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+        </div>
+
+
+        <div class="about">
+
+            <div class="about_type">
+
+                <h2><span>About</span>&nbsp;&nbsp;Mom</h2>
+
+            </div>
+            <div class="about_image" style="align-self: flex-start;">
+                <img src="images/satellite.jpg">
+            </div>
+            <div class="about_text">
+
+                <h2><span>About</span>&nbsp;&nbsp;Mom</h2>
+                <p>The Mars Orbiter Mission (MOM), also called Mangalyaan ("Mars-craft", from mangala, "Mars" and yāna,
+                    "craft, vehicle"), is a space probe orbiting Mars since 24 September 2014. It was launched on 5
+                    November 2013 by the Indian Space Research Organisation (ISRO). It is India's first interplanetary
+                    mission and it made it the fourth space agency to achieve Mars orbit, after Roscosmos, NASA, and the
+                    European Space Agency. It made India the first Asian nation to reach Martian orbit and the first
+                    nation in the world to do so on its maiden attempt.
+                    The Mars Orbiter Mission probe lifted-off from the First Launch Pad at Satish Dhawan Space Centre
+                    (Sriharikota Range SHAR), Andhra Pradesh, using a Polar Satellite Launch Vehicle (PSLV) rocket C25
+                    at 09:08 UTC on 5 November 2013.
+                </p>
+
+                <a class="read">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    More</a>
+            </div>
+        </div>
+
+
+        <div class="payload">
+            <h2>Payloads</h2>
+            <p>Intsruments That Be Used in This Mission</p>
+
+            <div class="payload_flex">
+                <div class="one">
+                    <img src="payload/msm.png">
+
+                    <h3>Methane Sensor for Mars (MSM)</h3>
+                </div>
+                <div class="one">
+                    <img src="payload/mcc.png">
+                    <h3>Mars Color Camera (MCC)</h3>
+
+                </div>
+                <div class="one">
+                    <img src="payload/lap.png">
+                    <h3>Lyman Alpha Photometer (LAP)</h3>
+
+                </div>
+                <div class="one">
+                    <img src="payload/menca.png">
+                    <h3>Mars Exospheric Neutral <br>Composition Analyser (MENCA)</h3>
+
+                </div>
+                <div class="one">
+                    <img src="payload/tis.png">
+                    <h3>Thermal Infrared Imaging <br>Spectrometer (TIS)</h3>
+
+                </div>
+
+                <div class="two">
+                    <img src="payload/tis.png">
+                    <h3>Thermal Infrared Imaging <br>Spectrometer (TIS)</h3>
+
+                </div>
+
+            </div>
+
+            <a class="read">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                More</a>
+        </div>
+        <div class="profile">
+            <h2>Mars Mission Profile</h2>
+            <div class="profile_flex">
+
+                <div class="phase">
+                    <p>01</p>
+                    <h3>Geo Centric Phase</h3>
+                </div>
+                <div class="phase">
+                    <p>02</p>
+                    <h3>Helio Centric Phase</h3>
+                </div>
+                <div class="phase">
+                    <p>03</p>
+                    <h3>Martian Phase</h3>
+                </div>
+
+            </div>
+            <a class="read">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                More</a>
+        </div>
+
+        <div class="team">
+            <h2>Team Management</h2>
+
+            <p>Team of MoM who made Mangalyaan launch possible</p>
+
+            <div class="team_flex">
+                <div class="team1">
+                    <img src="images/K-Radhakrishnan.jpg">
+                    <div class="team_about">
+                        <p><span>Name:</span>&nbsp; &nbsp;K Radhakrishnan </p>
+                        <p><span>Responsibility:</span>&nbsp; &nbsp;Responsible for leading the mission and overall
+                            activities of Isro.</p>
+                        <p><span>Quote:</span>&nbsp; &nbsp;"It has been a new and complex mission. The Journey has
+                            begun, the challenging phase is going to come."</p>
+                    </div>
+                </div>
+                <div class="team1">
+                    <img src="images/Mylswamy_Annadurai.jpg">
+                    <div class="team_about">
+                        <p><span>Name:</span>&nbsp; &nbsp;M Annadurai </p>
+                        <p><span>Responsibility:</span>&nbsp; &nbsp;Responsible for leading the mission and overall
+                            activities of Isro.</p>
+                        <p><span>Challenge:</span>&nbsp; &nbsp;India's first true inter-planetary mission. Ensuring
+                            enough autonomy for the spacecraft to take decisions on its own.</p>
+                    </div>
+                </div>
+                <div class="team1">
+                    <img src="images/s-ramakrishnan-01.png">
+                    <div class="team_about">
+                        <p><span>Name:</span>&nbsp; &nbsp; S Ramakrishnan </p>
+                        <p><span>Responsibility:</span>&nbsp; &nbsp;Responsible for realising the rocket (Polar
+                            Satellite Launch Vehicle) that would ferry the Mars orbiter.</p>
+                        <p><span>Quote:</span>&nbsp; &nbsp; “From here to go to Mars we are going to use only a fraction
+                            of what we did in getting to the (Earth) orbit.”</p>
+                    </div>
+                </div>
+                <div class="team1"><img src="images/SK Shivakumar-01.png">
+                    <div class="team_about">
+                        <p><span>Name:</span>&nbsp; &nbsp;SK Shivakumar </p>
+                        <p><span>Responsibility:</span>&nbsp; &nbsp;Responsible for developing satellite technology and
+                            implementing satellite systems for scientific, technological and application missions.</p>
+                        <p><span>Quote:</span>&nbsp; &nbsp;"Our baby is up in the space. It was almost like a
+                            caesarean."</p>
+                    </div>
+                </div>
+                <div class="team1">
+                    <img src="images/P Kunhikrishnan.jpg">
+                    <div class="team_about">
+                        <p><span>Name:</span>&nbsp; &nbsp;P Kunhikrishnan </p>
+                        <p><span>Responsibility:</span>&nbsp; &nbsp;Responsible for seeing the rocket completes its
+                            mission successfully and that the satellite is correctly injected in the designated orbit.nd
+                            overall activities of Isro.</p>
+                        <p><span>Challenge:</span>&nbsp; &nbsp;the orbital characteristic is different from regular PSLV
+                            missions. The total duration of the launch was 44 minutes. </p>
+                    </div>
+                </div>
+                <div class="team1">
+                    <img src="images/chandradathan.jpg">
+                    <div class="team_about">
+                        <p><span>Name:</span>&nbsp; &nbsp;Chandradathan </p>
+                        <p><span>Responsibility:</span>&nbsp; &nbsp;Responsible for the SLV-3 Project during its design
+                            phase and later was involved in the development of solid propellant formulations for SLV-3 .
+                        </p>
+                        <p><span>Quote:</span>&nbsp; &nbsp;"It has been a new and complex mission. The Journey has
+                            begun, the challenging phase is going to come."</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="read">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                More</a>
+        </div>
+
+
+        <div class="galleryhead">
+            <h2>Exploring The Gallery</h2>
+
+
+            <div class="gallery">
+
+
+
+
+                <div class="gallerybox">
+                    <img src="gallery/Moon.jpg">
+                </div>
+
+                <div class="gallerybox">
+                    <img src="gallery/latestimagetakefrommcc.jpg">
+                </div>
+
+                <div class="gallerybox">
+                    <img src="gallery/L3HYK4hkM2gUTjBQbBMVkG.jpg">
+                </div>
+
+                <div class="gallerybox">
+                    <img src="gallery/download.jpg">
+                </div>
+
+                <div class="gallerybox">
+                    <img src="gallery/download (1).jpg">
+                </div>
+
+                <div class="gallerybox">
+                    <img src="gallery/picture3.jpg">
+                </div>
+
+                <div class="gallerybox">
+                    <img src="gallery/dazzlinggall.jpg">
+                </div>
+
+                <div class="gallerybox">
+                    <img src="gallery/danielsonandkalocsa.jpg">
+                </div>
+
+                <div class="gallerybox">
+                    <img src="gallery/coogon_valles.jpg">
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="faq">
+            <h2>FAQS</h2>
+
+            <div class="conflict">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">How long
+                                does it take to get to Mars?
+                            </span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>That depends on when you travel and how you plan on getting there. As the distance
+                                between Earth and Mars is constantly changing, so too does the amount of time it takes
+                                to get there. The quickest journey to the Red Planet by a spacecraft was Mariner 7's
+                                1969 flyby, which took 128 days to arrive.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How far is
+                                Mars from Earth?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>Due to their elliptical orbits, the distance between Mars and Earth is always changing as
+                                they spin around the Sun. At their closest approach, Mars is only 54.6 million
+                                kilometres (33.9 million miles) away. At their furthest, there are some 400 million km
+                                (250 million miles) between them.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How many
+                                moons does Mars have?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>There are two Mars moons; Phobos and Deimos. Phobos is the larger of the two but it is
+                                still tiny, with a radius of around 11km. Both moons were named after the Greek gods
+                                (and twin sons of the god Mars) of fear and terror respectively. They were discovered in
+                                1877 by American astronomer Asaph Hall.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How long is
+                                a day on Mars?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>Mars and Earth have very similar lengths of day. One day on Mars, known as a 'sol', lasts
+                                24 hours, 39 minutes, and 35.244 Earth seconds.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Which
+                                country went to Mars first?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>In 1960, the Soviet Union was the first country to attempt a flyby of Mars with 1M (known
+                                in the West as Marsnik) but the mission was unsuccessful. The USA was the first nation
+                                to reach Mars successfully when Mariner 4 made a flyby of the Red Planet in July 1965.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What have we
+                                found on Mars?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>Alas, there have been no reported sightings of little green men (yet), but what has been
+                                discovered on the Mars' surface is evidence of persistent liquid water,
+                                microbe-supporting chemistry, organic molecules, active methane and rocks. Lots of
+                                rocks.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What is the
+                                gravity on Mars?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>As Mars is smaller than Earth, the effect of gravity is much weaker. That's great news if
+                                you want to lose weight quickly, because if you weighed 75kg on Earth, that would drop
+                                to just over 28kg on Mars. The formula is Weight on Mars = (Weight on Earth/Earth's
+                                gravity (9.81m/s2)) * Mars gravity (3.711m/s2).</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What is
+                                between Mars and Jupiter?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>Asteroids. Many, many asteroids. The majority of the Solar System's known asteroids lie
+                                between Mars and Jupiter, with between 1.1 and 1.9 million of them larger than a
+                                kilometre in diameter. There are millions more smaller ones, but are so spread out the
+                                distance between them is in the millions of kilometres.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What is the
+                                weather like on Mars?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>Despite the thin Mars atmosphere, the planet is still capable of clouds and weather. In
+                                fact, when it comes to wind, Mars has the biggest dust storms on all of the planets in
+                                the Solar System. If you want to know the weather right now, NASA's InSight rover is
+                                acting as an on-location weather reporter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+       
+
+
+        <div class="footer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" fill="#fff"
+                    d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7 c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4 c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z">
+                </path>
+            </svg>
+
+            <div class="foot">
+                <h2>
+                    Give a missed call on +91-98181-10497 for related information
+                </h2>
+            </div>
+
+            <div class="footer_flex">
+                <div class="footer_upper">
+                    <h2>Use Full Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#"> Privacy Policy</a></li>
+                    </ul>
+
+                    <div class="iconbox">
+                        <ul>
+                            <li><a href="https://www.facebook.com/akshay.singhania.733076" class="facebook"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/akshay-kumar-8523ab176/" class="linkedin"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://wa.me/9818110497" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/AkshayK82169897?s=09" class="twitter"><i
+                                        class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/a.k.s.h.a.y_07.dz/" class="instagram"><i
+                                        class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="footer_upper">
+                    <h2>Locations</h2>
+
+                    <h2 class="normal">Delhi</h2>
+                    <ul>
+                        <li>
+                            <a>DOS Branch Secretariat, ISRO Branch Office, Delhi Earth Station
+                            </a>
+                        </li>
+                    </ul>
+
+                    <h2 class="normal">Chandigarh</h2>
+                    <ul>
+                        <li><a>Semi-Conductor Laboratory (SCL)</a></li>
+                    </ul>
+
+
+
+
+                    <h2 class="normal">Jodhpur</h2>
+                    <ul>
+                        <li><a>Western RRSC</a></li>
+                    </ul>
+
+                    <h2 class="normal">Dehradun</h2>
+                    <ul>
+                        <li>
+                            <a>Indian Institute of Remote Sensing (IIRS)</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+
+
+
+                <div class="footer_upper">
+                    <h2>Stay Connected</h2>
+
+                    <ul>
+                        <li>
+                            <a>Be the first to receive our latest news & mission details.</a>
+                        </li>
+                    </ul>
+
+                    <form action="#" method="post" autocomplete="off" name="contactform" onsubmit="check();">
+                        <input type="text" id="text" name="text" class="input1" placeholder="Full Name">
+
+                        <input type="email" id="email" name="email" class="input1" placeholder="E-mail">
+
+                        <input type="tel" id="phone" name="phone" class="input1" placeholder="Your Phone Number">
+
+
+                        <input type="submit" value="Subscribe" class="submit1">
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer_bottom">
+            <p>&copy; All rights reserved 2022 | Created By Developer Akshay Kumar</p>
+            <a href="#" onclick="high();" id="anchor">&#8593;</a>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
