@@ -1421,6 +1421,7 @@ h2 {
   position: fixed;
   bottom: 50px;
   left: 95%;
+  cursor: pointer;
   background-color: #9c9494;
   opacity: 0.3;
   display: inline-block;
