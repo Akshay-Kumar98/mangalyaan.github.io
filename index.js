@@ -127,7 +127,7 @@ function high() {
 $(document).ready(function () {
 $(window).scroll(function () {
   if ($(window).scrollTop()) {
-    $("#anchor").fadeIn(3000);
+    $("#anchor").fadeIn(1000);
   } else {
     $("#anchor").fadeOut(1000);
   }
