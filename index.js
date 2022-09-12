@@ -123,12 +123,16 @@ function high() {
   window.scrollTo(0, 0);
 }
 
+
+$(document).ready(function () {
 $(window).scroll(function () {
   if ($(window).scrollTop()) {
     $("#anchor").fadeIn(3000);
   } else {
     $("#anchor").fadeOut(1000);
   }
+});
+  
 });
 
 $(document).ready(function () {
