@@ -227,6 +227,7 @@ h2 {
   justify-content: space-around;
   background-color: white;
   padding-bottom: 40px;
+  box-shadow: 0 1px 5px #454545;
 }
 
 .sidebar span {
