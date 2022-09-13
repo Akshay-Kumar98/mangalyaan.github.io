@@ -1425,7 +1425,7 @@ h2 {
 .footer_bottom a {
   position: fixed;
   bottom: 70px;
-  left: 95%;
+  right: 20px;
   cursor: pointer;
   background-color: #9c9494;
   opacity: 0.3;
